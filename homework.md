@@ -178,9 +178,10 @@ UPDATE movies set show_time = '14:55' WHERE title = 'Guardians of the Galaxy 2';
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
-DELETE FROM Table (Name, Location)
-SELECT 'Name1', 'Location1'
+
+DELETE FROM people (Name)
+SELECT 'Anthony Starke'
 UNION ALL
-SELECT 'Name2', 'Location2'
+SELECT 'Anita Squires'
 UNION ALL
-SELECT 'Name3', 'Location3'
+SELECT 'Janapoles Ramos'
