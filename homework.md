@@ -161,7 +161,7 @@ Katie Jeffree
 (22 rows)
 
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Captain Marvel'!! Create a new entry in the 'movies' table to reflect this.
-INSERT INTO movies (title) VALUES ('Captain Marvel');
+INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel', 2019, '00:00');
 
 Spider-Man: Homecoming
 Thor: Ragnarok
@@ -179,9 +179,4 @@ UPDATE movies set show_time = '14:55' WHERE title = 'Guardians of the Galaxy 2';
 
 1.  Research how to delete multiple entries from your table in a single command.
 
-DELETE FROM people (Name)
-SELECT 'Anthony Starke'
-UNION ALL
-SELECT 'Anita Squires'
-UNION ALL
-SELECT 'Janapoles Ramos'
+DELETE FROM table WHERE name='' OR name='';
